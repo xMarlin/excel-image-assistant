@@ -713,5 +713,3 @@ Before using the add-in on important workbooks, keep a backup and test the workf
 License
 
 No software activation or license-key system is built into the add-in.
-
-Important for GitHub: the absence of an activation system is different from an open-source copyright license. If you want other people to legally use, modify, and redistribute the source code, add a repository license such as the MIT License, Apache-2.0, or another license appropriate for your project.
