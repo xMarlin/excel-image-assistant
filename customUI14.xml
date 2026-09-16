@@ -1,0 +1,29 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon><tabs><tab id="EIA_Mohamed_17" label="Excel Image Assistant" insertAfterMso="TabData">
+    <group id="EIA_M17_Pictures" label="Pictures">
+      <button id="EIA_M17_Button1" label="Insert" size="large" onAction="ImgSingle" imageMso="ObjectPictureFill" />
+      <button id="EIA_M17_Button2" label="Insert All" size="large" onAction="ImgAll" imageMso="PhotoAlbumInsert" />
+      <button id="EIA_M17_Button3" label="Delete" size="large" onAction="ImgDel" imageMso="PictureRemovePicture" />
+    </group>
+    <group id="EIA_M17_Comments" label="Comments">
+      <button id="EIA_M17_Button5" label="Insert" size="large" onAction="CommSingle" imageMso="NewComment" />
+      <button id="EIA_M17_Button6" label="Insert All" size="large" onAction="CommAll" imageMso="ReviewShowAllComments" />
+      <button id="EIA_M17_Button7" label="Delete" size="large" onAction="CommDel" imageMso="ReviewDeleteComment" />
+    </group>
+    <group id="EIA_M17_URL" label="URL">
+      <button id="EIA_M17_Button11" label="Insert" size="large" onAction="rbnDownInsertFile" imageMso="CreateFormWeb" />
+      <button id="EIA_M17_Button12" label="Insert All" size="large" onAction="rbnDownInsertFiles" imageMso="CreateFormWithMultipleItemsWeb" />
+      <button id="EIA_M17_Button13" label="Delete" size="large" onAction="ImgDel" imageMso="PictureRemovePicture" />
+    </group>
+    <group id="EIA_M17_Compress" label="Compress"><button id="EIA_M17_Button16" label="Compress Pictures" size="large" onAction="Compress" imageMso="PictureCompress" /></group>
+    <group id="EIA_M17_FileNames" label="File Names">
+      <button id="EIA_M17_Button14" label="Insert" size="large" onAction="rbnFileName" imageMso="TableOfContentsAddTextGallery" />
+      <button id="EIA_M17_Button15" label="Insert All" size="large" onAction="rbnAllFileNames" imageMso="TableOfFiguresInsert" />
+    </group>
+    <group id="EIA_M17_Main" label="Excel Image Assistant">
+      <button id="EIA_M17_Button8" label="EIA" size="large" onAction="ShowPicc" imageMso="NewPicturesTool" />
+      <button id="EIA_M17_Button9" label="Settings" size="large" onAction="ShowPicc1" imageMso="AddInManager" />
+      <button id="EIA_M17_Button10" label="Info" size="large" onAction="ShowAbout" imageMso="Info" />
+    </group>
+  </tab></tabs></ribbon>
+</customUI>

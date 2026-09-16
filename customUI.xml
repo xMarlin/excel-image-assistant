@@ -1,0 +1,29 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon><tabs><tab id="EIA_Mohamed_17" label="Excel Image Assistant" insertAfterMso="TabData">
+    <group id="EIA_M17_Pictures" label="Pictures">
+      <button id="EIA_M17_Button1" label="Insert" size="large" onAction="ImgSingle" imageMso="OmsSlideInsert" />
+      <button id="EIA_M17_Button2" label="Insert All" size="large" onAction="ImgAll" imageMso="OmsChangeSlideLayoutGallery" />
+      <button id="EIA_M17_Button3" label="Delete" size="large" onAction="ImgDel" imageMso="OmsDelete" />
+    </group>
+    <group id="EIA_M17_Comments" label="Comments">
+      <button id="EIA_M17_Button5" label="Insert" size="large" onAction="CommSingle" imageMso="GroupComments" />
+      <button id="EIA_M17_Button6" label="Insert All" size="large" onAction="CommAll" imageMso="ReviewNextComment" />
+      <button id="EIA_M17_Button7" label="Delete" size="large" onAction="CommDel" imageMso="ReviewDeleteComment" />
+    </group>
+    <group id="EIA_M17_URL" label="URL">
+      <button id="EIA_M17_Button11" label="Insert" size="large" onAction="rbnDownInsertFilet" imageMso="GetExternalDataFromWeb" />
+      <button id="EIA_M17_Button12" label="Insert All" size="large" onAction="rbnDownInsertFiles" imageMso="ViewWebLayoutView" />
+      <button id="EIA_M17_Button13" label="Delete" size="large" onAction="ImgDel" imageMso="OmsDelete" />
+    </group>
+    <group id="EIA_M17_Compress" label="Compress"><button id="EIA_M17_Button16" label="Compress Pictures" size="large" onAction="Compress" imageMso="GroupPictureCompress" /></group>
+    <group id="EIA_M17_FileNames" label="File Names">
+      <button id="EIA_M17_Button14" label="Insert" size="large" onAction="rbnFileName" imageMso="SlideMasterInsertLayout" />
+      <button id="EIA_M17_Button15" label="Insert All" size="large" onAction="rbnAllFileNames" imageMso="SlideMasterMasterLayout" />
+    </group>
+    <group id="EIA_M17_Main" label="Excel Image Assistant">
+      <button id="EIA_M17_Button8" label="EIA" size="large" onAction="ShowPicc" imageMso="ViewFullScreenView" />
+      <button id="EIA_M17_Button9" label="Settings" size="large" onAction="ShowPicc1" imageMso="OmsCustomizeLayout" />
+      <button id="EIA_M17_Button10" label="Info" size="large" onAction="ShowAbout" imageMso="Info" />
+    </group>
+  </tab></tabs></ribbon>
+</customUI>
